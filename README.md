@@ -3,7 +3,7 @@
 Este é um projeto de exemplo que mostra como criar um modulo utilizando o CocoaPods.
 <br>
 ### Artigo
-[Medium]()
+[Medium](https://medium.com/@vitoralves59/modulariza%C3%A7%C3%A3o-ios-com-cocoapods-191a5ba1e694)
 <br>
 
 ## Autor
