@@ -1,13 +1,15 @@
 use_frameworks!
 
 platform :ios, '9.0'
+install! 'cocoapods', :disable_input_output_paths => true
 
 target 'Feature_Example' do
-  pod 'Feature', :path => '../'
+  
+  
+  pod 'Feature', :git => 'url do repositório'
 
   target 'Feature_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase' , '~> 2.1.4'
   end
 end

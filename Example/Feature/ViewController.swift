@@ -1,24 +1,30 @@
 //
 //  ViewController.swift
-//  Feature
+//  Feature_Example
 //
-//  Created by tqi-valves on 01/16/2022.
-//  Copyright (c) 2022 tqi-valves. All rights reserved.
+//  Created by Victor Freitas on 28/01/22.
+//  Copyright © 2022 CocoaPods. All rights reserved.
 //
 
 import UIKit
+import Feature
 
 class ViewController: UIViewController {
 
+    // MARK: Lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    // MARK: Actions
+    
+    @IBAction func openModuleTapped(_ sender: Any) {
+        guard let navigation = navigationController else {
+            return
+        }
+        
+        let featureGate = FeatureGate()
+        navigation.pushViewController(featureGate, animated: true)
     }
-
 }
-
