@@ -1,28 +1,17 @@
-# Feature
+# Modulo De Exemplo Utilizando CocoaPods
 
-[![CI Status](https://img.shields.io/travis/tqi-valves/Feature.svg?style=flat)](https://travis-ci.org/tqi-valves/Feature)
-[![Version](https://img.shields.io/cocoapods/v/Feature.svg?style=flat)](https://cocoapods.org/pods/Feature)
-[![License](https://img.shields.io/cocoapods/l/Feature.svg?style=flat)](https://cocoapods.org/pods/Feature)
-[![Platform](https://img.shields.io/cocoapods/p/Feature.svg?style=flat)](https://cocoapods.org/pods/Feature)
+Este é um projeto de exemplo que mostra como criar um modulo utilizando o CocoaPods.
+<br>
+### Artigo
+[Medium]()
+<br>
 
-## Example
+## Autor
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-Feature is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'Feature'
-```
-
-## Author
-
-tqi-valves, tqi_valves@uolinc.com
+<img src="https://avatars.githubusercontent.com/u/33930810?s=400&u=de2cb07d58b8c7948bac1654a66bd54e6999a2a1&v=4" style="border: none; border-radius:50%" width="100" height="100">
+<h5>Victor Freitas | iOS Specialist</h5>
+<a href="https://linkedin.com/in/victor-freitas-84bb37124/"><img align="left" alt="Victor | LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<br><br>
 
 ## License
 
